@@ -11,11 +11,13 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, serif, Arial, Helvetica,
     sans-serif;
   line-height: 1.80857;
+  scroll-behavior: smooth;
 }
 
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body.demos .section {
@@ -2456,6 +2458,10 @@ select.mobile-device {
   border-radius: 20px;
 }
 
+.testimonial img {
+  max-width: 130px;
+}
+
 .html {
   width: 90%;
   background-color: #030303;
@@ -2474,7 +2480,7 @@ select.mobile-device {
   background-color: #000000;
 }
 p {
-  color: #000;
+  color: black;
 }
 .Html {
   width: 95%;
@@ -2492,4 +2498,60 @@ p {
 .Flask {
   width: 70%;
   background-color: #000000;
+}
+.calc {
+  border-radius: 20px;
+}
+.img-overlay {
+  border-radius: 8px;
+}
+.gallery-single {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 90px #ccc;
+  border-radius: 20px;
+}
+.mihli {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 105px;
+}
+.social-media-list {
+  align-self: start;
+}
+ul.social-media-list img {
+  padding: 5px;
+  border-radius: 7px;
+  background-color: rgb(183, 190, 194);
+  width: 36px;
+  height: 36px;
+}
+ul.social-media-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.social-media-list li {
+  display: inline-block;
+}
+ul.social-media-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px; /* eliminate space between li */
+}
+ul.social-media-list li {
+  display: inline-block;
+  margin: 2px;
+}
+ul.social-media-list img:hover {
+  background-color: #3d3838;
+}
+ul.social-media-list {
+  list-style-type: none;
+  margin: 1px;
+  padding-right: 95px;
+  font-size: 0px;
 }
