@@ -5,6 +5,10 @@
 @import url(css/owl.carousel.css);
 @import url(css/font-awesome.min.css);
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #999999;
   font-size: 14px;
@@ -2487,7 +2491,7 @@ p {
   background-color: #000000;
 }
 .Python {
-  width: 60%;
+  width: 71%;
   background-color: #000000;
 }
 
@@ -2513,11 +2517,31 @@ p {
   border-radius: 20px;
 }
 .mihli {
-  font-size: 30px;
+  font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  margin-left: 105px;
+  margin-left: 50px;
 }
+
+.mihli {
+  background-color: #0a0f0b; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.mihli:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
 .social-media-list {
   align-self: start;
 }
